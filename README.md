@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Urban Mobility Data Framework (UMDF)</h1>
+  <h1>Urban Mobility Data Framework </h1>
   <p><i>Computational Pipeline for Ingestion & Semantic Enrichment</i></p>
   
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />

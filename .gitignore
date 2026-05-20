@@ -216,3 +216,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ==========================================
+# Dados do Projeto de Mobilidade (GTFS/GPS)
+# ==========================================
+data/
+*.zip
+*.txt

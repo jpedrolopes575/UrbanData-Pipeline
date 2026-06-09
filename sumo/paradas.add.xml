@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<additional>
+    <busStop id="parada_21" lane="1335038165#0_0" startPos="0.0" endPos="-1.0" friendlyPos="true" lines="101" name="AVENIDA CEL CARVALHO, 830"/>
+    <busStop id="parada_19" lane="-1074146030#1_0" startPos="0.0" endPos="-1.0" friendlyPos="true" lines="101" name="AVENIDA CEL CARVALHO, 599"/>
+    <busStop id="parada_12" lane="-24416085#1_0" startPos="0.0" endPos="-1.0" friendlyPos="true" lines="101" name="AVENIDA CEL CARVALHO, 163"/>
+    <busStop id="parada_18" lane="-159357015#3_0" startPos="0.0" endPos="-1.0" friendlyPos="true" lines="101" name="AVENIDA CIRCULACAO, 564"/>
+    <busStop id="parada_10" lane="-275043051_0" startPos="0.0" endPos="-1.0" friendlyPos="true" lines="101" name="AVENIDA CEL CARVALHO, 1135"/>
+    <busStop id="parada_9" lane="-159356782#0_0" startPos="0.0" endPos="-1.0" friendlyPos="true" lines="101" name="AVENIDA RAD JOSÉ LIMA VERDE, 1037"/>
+    <busStop id="parada_4" lane="115437650#0_0" startPos="0.0" endPos="-1.0" friendlyPos="true" lines="101" name="AVENIDA JOSÉ LIMA VERDE, SN"/>
+    <busStop id="parada_5507" lane="-115437674#2_0" startPos="0.0" endPos="-1.0" friendlyPos="true" lines="101" name="AVENIDA CASTELO BRANCO, SN"/>
+    <busStop id="parada_26" lane="-159356837#1_0" startPos="0.0" endPos="-1.0" friendlyPos="true" lines="101" name="AVENIDA PRS CASTELO BRANCO, SN"/>
+    <busStop id="parada_30" lane="-159356932#2_0" startPos="0.0" endPos="-1.0" friendlyPos="true" lines="101" name="AVENIDA PRESIDENTE CASTELO BRANCO, 5818"/>
+    <busStop id="parada_27" lane="-114392782#3_0" startPos="0.0" endPos="-1.0" friendlyPos="true" lines="101" name="AVENIDA PRS CASTELO BRANCO, 5471"/>
+    <busStop id="parada_44" lane="-114392843#0_0" startPos="0.0" endPos="-1.0" friendlyPos="true" lines="101" name="AVENIDA PRS CASTELO BRANCO, 5241"/>
+    <busStop id="parada_66" lane="-114392823#6_0" startPos="0.0" endPos="-1.0" friendlyPos="true" lines="101" name="AVENIDA PRS CASTELO BRANCO, 4821"/>
+    <busStop id="parada_64" lane="-274975640_0" startPos="0.0" endPos="-1.0" friendlyPos="true" lines="101" name="AVENIDA PRS CASTELO BRANCO, 4577"/>
+    <busStop id="parada_68" lane="-1100581707_0" startPos="0.0" endPos="-1.0" friendlyPos="true" lines="101" name="AVENIDA PRES CASTELO BRANCO, 4246"/>
+    <busStop id="parada_76" lane="-274785074#2_0" startPos="0.0" endPos="-1.0" friendlyPos="true" lines="101" name="AVENIDA PRS CASTELO BRANCO, 3779"/>
+    <busStop id="parada_75" lane="913606903#5_0" startPos="0.0" endPos="-1.0" friendlyPos="true" lines="101" name="AVENIDA PEDRO AMERICO, 3701"/>
+    <busStop id="parada_246" lane="-159348075_0" startPos="0.0" endPos="-1.0" friendlyPos="true" lines="101" name="AVENIDA PRS CASTELO BRANCO, 3567"/>
+    <busStop id="parada_244" lane="-132962979#2_0" startPos="0.0" endPos="-1.0" friendlyPos="true" lines="101" name="AVENIDA PRS CASTELO BRANCO, 3312"/>
+    <busStop id="parada_253" lane="-1190905087_0" startPos="0.0" endPos="-1.0" friendlyPos="true" lines="101" name="AVENIDA PRS CASTELO BRANCO, 3257"/>
+    <busStop id="parada_6835" lane="-568990246#0_0" startPos="0.0" endPos="-1.0" friendlyPos="true" lines="101" name="AVENIDA PRS CASTELO BRANCO, 3133"/>
+    <busStop id="parada_270" lane="-1100859032#0_0" startPos="0.0" endPos="-1.0" friendlyPos="true" lines="101" name="AVENIDA PRS CASTELO BRANCO, 2973"/>
+    <busStop id="parada_272" lane="-159348079#12_0" startPos="0.0" endPos="-1.0" friendlyPos="true" lines="101" name="AVENIDA PRS CASTELO BRANCO, 2813"/>
+    <busStop id="parada_278" lane="-1188304678_0" startPos="0.0" endPos="-1.0" friendlyPos="true" lines="101" name="AVENIDA PRS CASTELO BRANCO, 2441"/>
+    <busStop id="parada_6889" lane="-1188199721_0" startPos="0.0" endPos="-1.0" friendlyPos="true" lines="101" name="AVENIDA PRESIDENTE CASTELO BRANCO, 2223"/>
+    <busStop id="parada_706" lane="-1109122847_0" startPos="0.0" endPos="-1.0" friendlyPos="true" lines="101" name="AVENIDA PRS CASTELO BRANCO, 2031"/>
+    <busStop id="parada_6605" lane="-1029117392#0_0" startPos="0.0" endPos="-1.0" friendlyPos="true" lines="101" name="AVENIDA FILOMENO GOMES, S/Nº"/>
+    <busStop id="parada_980" lane="-1202368693#0_0" startPos="0.0" endPos="-1.0" friendlyPos="true" lines="101" name="AVENIDA FILOMENO GOMES, SN"/>
+    <busStop id="parada_981" lane="-1362439511#0_0" startPos="0.0" endPos="-1.0" friendlyPos="true" lines="101" name="AVENIDA FILOMENO GOMES, 704"/>
+    <busStop id="parada_986" lane="1185395642#3_0" startPos="0.0" endPos="-1.0" friendlyPos="true" lines="101" name="RUA SAO PAULO, 1437"/>
+    <busStop id="parada_4409" lane="-132968674#1_0" startPos="0.0" endPos="-1.0" friendlyPos="true" lines="101" name="RUA SAO PAULO, 1331"/>
+    <busStop id="parada_1014" lane="1185403580#5_0" startPos="0.0" endPos="-1.0" friendlyPos="true" lines="101" name="RUA SAO PAULO, 955"/>
+    <busStop id="parada_5580" lane="-1364254859_0" startPos="0.0" endPos="-1.0" friendlyPos="true" lines="101" name="RUA SAO PAULO, 677"/>
+    <busStop id="parada_4410" lane="-839380572#1_0" startPos="0.0" endPos="-1.0" friendlyPos="true" lines="101" name="RUA BAR RIO BRANCO, 820"/>
+    <busStop id="parada_7154" lane="1121244951#1_0" startPos="0.0" endPos="-1.0" friendlyPos="true" lines="101" name="RUA GENERAL SAMPAIO,"/>
+    <busStop id="parada_7568" lane="-1303821983#0_0" startPos="0.0" endPos="-1.0" friendlyPos="true" lines="101" name="PRAÇA TERMINAL JOSÉ DE ALENCAR, S/N"/>
+</additional>

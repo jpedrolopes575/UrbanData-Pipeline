@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<routes>
+    <vType id="onibus_fortaleza" vClass="passenger" length="12.0" color="1,0,0"/>
+    <trip id="viagem_101_automatica" type="onibus_fortaleza" depart="15900" from="1335038165#0" to="-1303821983#0" departLane="best" departPos="free" arrivalLane="current" arrivalPos="max">
+        <stop busStop="parada_21" duration="20" friendlyPos="true"/>
+        <stop busStop="parada_19" duration="20" friendlyPos="true"/>
+        <stop busStop="parada_12" duration="20" friendlyPos="true"/>
+        <stop busStop="parada_18" duration="20" friendlyPos="true"/>
+        <stop busStop="parada_10" duration="20" friendlyPos="true"/>
+        <stop busStop="parada_9" duration="20" friendlyPos="true"/>
+        <stop busStop="parada_4" duration="20" friendlyPos="true"/>
+        <stop busStop="parada_5507" duration="20" friendlyPos="true"/>
+        <stop busStop="parada_26" duration="20" friendlyPos="true"/>
+        <stop busStop="parada_30" duration="20" friendlyPos="true"/>
+        <stop busStop="parada_27" duration="20" friendlyPos="true"/>
+        <stop busStop="parada_44" duration="20" friendlyPos="true"/>
+        <stop busStop="parada_66" duration="20" friendlyPos="true"/>
+        <stop busStop="parada_64" duration="20" friendlyPos="true"/>
+        <stop busStop="parada_68" duration="20" friendlyPos="true"/>
+        <stop busStop="parada_76" duration="20" friendlyPos="true"/>
+        <stop busStop="parada_75" duration="20" friendlyPos="true"/>
+        <stop busStop="parada_246" duration="20" friendlyPos="true"/>
+        <stop busStop="parada_244" duration="20" friendlyPos="true"/>
+        <stop busStop="parada_253" duration="20" friendlyPos="true"/>
+        <stop busStop="parada_6835" duration="20" friendlyPos="true"/>
+        <stop busStop="parada_270" duration="20" friendlyPos="true"/>
+        <stop busStop="parada_272" duration="20" friendlyPos="true"/>
+        <stop busStop="parada_278" duration="20" friendlyPos="true"/>
+        <stop busStop="parada_6889" duration="20" friendlyPos="true"/>
+        <stop busStop="parada_706" duration="20" friendlyPos="true"/>
+        <stop busStop="parada_6605" duration="20" friendlyPos="true"/>
+        <stop busStop="parada_980" duration="20" friendlyPos="true"/>
+        <stop busStop="parada_981" duration="20" friendlyPos="true"/>
+        <stop busStop="parada_986" duration="20" friendlyPos="true"/>
+        <stop busStop="parada_4409" duration="20" friendlyPos="true"/>
+        <stop busStop="parada_1014" duration="20" friendlyPos="true"/>
+        <stop busStop="parada_5580" duration="20" friendlyPos="true"/>
+        <stop busStop="parada_4410" duration="20" friendlyPos="true"/>
+        <stop busStop="parada_7154" duration="20" friendlyPos="true"/>
+        <stop busStop="parada_7568" duration="20" friendlyPos="true"/>
+    </trip>
+</routes>

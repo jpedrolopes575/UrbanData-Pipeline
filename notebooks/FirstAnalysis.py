@@ -1,17 +1,30 @@
+# =====================================================================
+# 1. ESTE BLOCO PRECISA SER A PRIMEIRA COISA DO ARQUIVO (Configura o Caminho)
+# =====================================================================
 import os
 import sys
 
-# Diretório onde 'FirstAnalysis.py' está guardado:
+# Descobre o caminho da raiz do projeto e injeta na busca do Python
 diretorio_atual = os.path.dirname(os.path.abspath(__file__))
 raiz_projeto = os.path.dirname(diretorio_atual)
 
 if raiz_projeto not in sys.path:
     sys.path.insert(0, raiz_projeto)
 
+# =====================================================================
+# 2. AGORA SIM, COLOQUE TODOS OS OUTROS IMPORTS ABAIXO:
+# =====================================================================
 from src.preprocess import interpolar_horarios_viagem, criar_camada_geografica
+from src.simulation import gerar_arquivos_sumo  
+
 import pandas as pd
 import geopandas as gpd
 import matplotlib.pyplot as plt
+
+# Desativa o backend gráfico para rodar limpo no terminal do Linux
+plt.switch_backend('Agg') 
+
+# ... (resto do seu código de carregamento de dados e análise)
 
 # 1. Carregamento de dados  
 trips = pd.read_csv('data/trips.txt')
@@ -57,3 +70,12 @@ print("💾 Gravando o mapa fisicamente em docs/mapa_rota_teste.png...")
 plt.savefig('docs/mapa_rota_teste.png', dpi=300, bbox_inches='tight')
 
 print("✅ Arquivo gerado e consolidado com sucesso em docs/mapa_rota_teste.png!")
+
+
+print("🚀 Iniciando exportação para o SUMO...")
+
+gerar_arquivos_sumo(
+    df_viagem_com_paradas=viagem_com_paradas, 
+    caminho_rede_sumo='sumo/osm.net.xml',
+    pasta_saida='sumo'
+)

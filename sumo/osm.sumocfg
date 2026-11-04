@@ -6,13 +6,12 @@
 <sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
-        <net-file value="osm.net.xml"/>
+        <net-file value="../data/rede_fortaleza_estendida.net.xml"/>
         <route-files value="onibus.rou.xml"/>
-        <additional-files value="osm.poly.xml.gz,paradas.add.xml"/>
     </input>
     
     <time>
-        <begin value="15600"/>
+        <begin value="0"/>
         <end value="21600"/>
     </time>
 

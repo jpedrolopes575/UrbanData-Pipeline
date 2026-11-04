@@ -5,7 +5,7 @@ import xml.etree.ElementTree as ET
 import matplotlib.pyplot as plt
 import pandas as pd
 
-# Configura o caminho para encontrar a pasta 'src'
+#Configuração de caminho para encontrar a pasta "src"
 diretorio_atual = os.path.dirname(os.path.abspath(__file__))
 raiz_projeto = os.path.dirname(diretorio_atual)
 if raiz_projeto not in sys.path:
@@ -23,7 +23,6 @@ def analisar_resultado_onibus(caminho_xml='sumo/resultado_real.xml'):
     
     dados_onibus = []
     for tripinfo in root.findall('tripinfo'):
-        # Filtra apenas o veículo do ônibus que você configurou
         if 'viagem_101' in tripinfo.get('id') or tripinfo.get('vClass') == 'bus':
             dados_onibus.append({
                 'id': tripinfo.get('id'),
@@ -39,8 +38,7 @@ def analisar_resultado_onibus(caminho_xml='sumo/resultado_real.xml'):
         
     df_resumo = pd.DataFrame(dados_onibus)
     
-    # Exibe os dados formatados no terminal
-    print("\n========= DESEMPENHO DO ÔNIBUS CORRIGIDO =========")
+    print("\n========= DESEMPENHO DO ÔNIBUS  =========")
     print(f"🚌 ID do Veículo: {df_resumo['id'].iloc[0]}")
     print(f"⏱️ Tempo Total de Viagem: {df_resumo['duracao_minutos'].iloc[0]:.2f} minutos")
     print(f"🛑 Preso em Congestionamentos: {df_resumo['tempo_atraso_sinal_minutos'].iloc[0]:.2f} minutos")
@@ -48,7 +46,7 @@ def analisar_resultado_onibus(caminho_xml='sumo/resultado_real.xml'):
     print(f"⚡ Velocidade Média: {df_resumo['velocidade_media_kmh'].iloc[0]:.2f} km/h")
     print("==================================================\n")
     
-    # Gera um gráfico de barras simples comparando Tempo em Movimento vs Parado
+    #Gráfico de barras simples comparando Tempo em Movimento vs Parado
     plt.figure(figsize=(6, 4))
     tempo_movimento = df_resumo['duracao_minutos'].iloc[0] - df_resumo['tempo_atraso_sinal_minutos'].iloc[0]
     tempo_parado = df_resumo['tempo_atraso_sinal_minutos'].iloc[0]

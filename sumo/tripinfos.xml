@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2026-06-09T10:32:02.344056-03:00 by Eclipse SUMO GUI 1.27.0
+<!-- generated on 2026-11-04T14:52:06.857709-03:00 by Eclipse SUMO sumo 1.27.0
 <sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
-        <net-file value="/home/usuario/UrbanData/sumo/osm.net.xml.gz"/>
-        <route-files value="/home/usuario/UrbanData/sumo/osm.passenger.trips.xml"/>
-        <additional-files value="/home/usuario/UrbanData/sumo/osm.poly.xml.gz,/home/usuario/UrbanData/sumo/output.add.xml"/>
+        <net-file value="sumo/../data/rede_fortaleza_estendida.net.xml"/>
+        <route-files value="sumo/onibus.rou.xml"/>
     </input>
 
     <output>
-        <tripinfo-output value="/home/usuario/UrbanData/sumo/tripinfos.xml"/>
-        <statistic-output value="/home/usuario/UrbanData/sumo/stats.xml"/>
+        <tripinfo-output value="sumo/tripinfos.xml"/>
+        <statistic-output value="sumo/stats.xml"/>
     </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="21600"/>
+    </time>
 
     <processing>
         <ignore-route-errors value="true"/>
@@ -31,7 +35,12 @@
     </report>
 
     <gui_only>
-        <gui-settings-file value="/home/usuario/UrbanData/sumo/osm.view.xml"/>
+        <gui-settings-file value="sumo/osm.view.xml"/>
     </gui_only>
 
 </sumoConfiguration>
+-->
+
+<tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
+    <tripinfo id="viagem_101_automatica" depart="15900.00" departLane="234238739#1_0" departPos="0.00" departSpeed="10.29" departDelay="0.00" arrival="16226.00" arrivalLane="1185546961#6_0" arrivalPos="55.77" arrivalSpeed="0.00" duration="326.00" routeLength="73.14" waitingTime="301.00" waitingCount="1" stopTime="0.00" timeLoss="303.82" rerouteNo="0" devices="tripinfo_viagem_101_automatica routing_viagem_101_automatica" vType="onibus_fortaleza" speedFactor="1.06" vaporized="teleport"/>
+</tripinfos>
